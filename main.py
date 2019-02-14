@@ -22,7 +22,7 @@ class App(QFrame):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Web Browser")
-        self.setMinimumSize(1366, 768)
+        self.setMinimumSize(800, 600)
         self.create_app()
         self.setWindowIcon(QIcon('./logo.png'))
 
